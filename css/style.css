@@ -15,8 +15,6 @@
 a {
     text-decoration: none;
     color: #000000;
-    
-    
 }
 
 body {
@@ -41,15 +39,12 @@ body {
     border-radius: 20px;
     padding: 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-    
 }
 
 .card img {
     object-fit: cover;
     width: 100%;
-    height: 120px;
-    
-   
+    height: 120px; 
 }
 
 
@@ -62,8 +57,8 @@ body {
     font-weight: 700;
 }
 
-.neutralStar {
-    color: var(--main-bg-color)
+.neutral-star {
+    color: #FFFFFF;
 }
 
 /**** Header ***/
@@ -74,7 +69,6 @@ body {
     flex-direction: row;
     align-items: center;
     height: 35px;
-    
   }
   
   nav {
@@ -90,7 +84,6 @@ body {
   }
   
   nav li {
-    
     display: inline-block;
     margin-left: 20px;
     margin-right: 70px;
@@ -158,7 +151,6 @@ form {
     
     .fa-location-dot {
     color: #000000;
-    
     }
     
     .rechercher {
@@ -170,11 +162,9 @@ form {
     color: #000000;
     border: none;
     padding-left: 20px;
-    
     }
     
     .bouton {
-    
     background-color: #0065FC;
     height: 50px;
     width: 120px;
@@ -231,7 +221,6 @@ form {
 
   .icon-texte:hover {
    background-color: #DEEBFF;
-
   }
 
   .texte {
@@ -306,7 +295,6 @@ form {
     flex-wrap: wrap;
     margin-top: 30px;
     margin-bottom: 30px;
-    
 }
 
 .hebergements-cards .card {
@@ -319,7 +307,6 @@ form {
 }
 .hebergements-cards .card-content {
     padding-left: 15px;
-    
 }
 
 .hebergements-cards .card-title {
@@ -438,7 +425,6 @@ form {
     align-items: center;
     justify-content: space-between;
     padding-top: 20px;
-    
 }
 
 footer {
@@ -500,23 +486,23 @@ footer {
 
  /********** Activités *********/
 
- .activites-img {
+    .activites-img {
     height: 200px;
- }
+    }
 
- .activites {
+    .activites {
     height: 270px;
- }
+    }
 
  /********* Footer *********/
 
- .bloc1 {
+    .bloc1 {
     margin-left: 2%;
-}
+    }
 
-.bloc3 {
+    .bloc3 {
     margin-right: 10%;
-}
+    }
 
     .hebergements-and-populaires {
         flex-direction: column;
@@ -628,14 +614,11 @@ footer {
         width: auto;
         justify-content: flex-start;
         border: none;
-    
-        
     }
 
     form {
         border: 0.5px solid #F2F2F2;
         border-radius: 15px;
-        
     }
 
     .fa-magnifying-glass {
@@ -656,7 +639,6 @@ footer {
     .populaires-cards  {
         flex-wrap: wrap;
         flex-direction: column;
-  
     }
 
     .populaires-cards a {
@@ -728,22 +710,37 @@ footer {
         margin-top: 0;
         margin-bottom: 20px;
         background-color:#F2F2F2;
-        
     }
 
     Body {
         margin: 0;
     }
 
-      
-      
-      
-      
-      
-      
+    .un {
+        order: 1;
+    }
 
-    
+    .deux {
+        order: 2;
+    }
 
+    .trois {
+        order: 3;
+    }
+
+    .quatre {
+        order: 4;
+    }
+
+    .cinq {
+        order: 5;
+    }
+
+    .six {
+        order: 6;
+    }
+
+      
     
 }
 
